@@ -1,0 +1,66 @@
+body {
+    background-image: url('./assets/css/img/mecanico.jpg'); /* Ruta a tu imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que se repita la imagen */
+    height: 90vh;
+    }
+    
+    /* Estilos para el formulario */
+    .formulario {
+      background-color: #ca1c1c; /* Color de fondo del formulario */
+      border-radius: 8px; /* Añadir bordes redondeados al formulario */
+      box-shadow: 0px 0px 10px #6904041a; /* Sombra alrededor del formulario */
+      padding: 20px; /* Espaciado interno del formulario */
+    }
+    
+    /* Personalizar colores de botones */
+    .btn-primary:hover {
+      background-color: rgb(255, 0, 0); /* Color de fondo del botón primario */
+      border-color: #b90606; /* Color del borde del botón primario */
+    }
+    .btn-primary{
+        background-color: #000000;
+        border-color: #b90606;
+    }
+    
+    .caja {
+        border: 1px solid #201e1e;
+        border-radius: 8px;
+        padding: 45px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: flex-start;
+        margin-top: 10vh;
+        margin-right: 500px;
+        background-color: rgba(255, 255, 255, 0.5);
+        position: relative;
+        height: 78vh;
+        padding-bottom: 20px;
+        margin-bottom: 20px; 
+        
+    }
+    .mt-5{
+      color: rgb(0, 0, 0);
+      text-align: center;
+      margin-top: -50px;
+  
+    }
+    .mt-3{
+      color: #000000;
+    }
+    .mt-4{
+   
+      position: absolute;
+      top: 20px; /* Ajusta la distancia desde la parte superior */
+      right: 20px;
+      color: rgb(0, 0, 0);
+      
+    }
+    .subrayar{
+      text-decoration: underline;
+    }
+  

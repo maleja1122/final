@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>MOTOWORKS</title>
+</head>
+<style>
+  
+    </style>
+
+
+<body>
+
+    <header>
+        <nav class="container">
+            <div class="marca">
+                <img src="./assets/css/img/MOTOWORKS.jpg" alt="">
+
+            </div>
+
+
+            <div class="boton">
+                <a href="#quienes"><button>Quienes Somos</a></button>
+                <a href="#servicios"><button>Servicios</a></button>
+                <a href="#productos"><button>Productos</a></button>
+                <a href="#articulos"><button>Contacto</a></button>
+                <a href="login.html" target="_blank"><button>Inicia Sesión</a></button>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Experimenta la Excelencia en Reparación de Motos</h1>
+        <a href="login.html" target="_blank"><button>AGENDA TU CITA HOY</button></a>
+    </section>
+
+    <section id="quienes">
+        <div class="quienessomos">
+            <div class="img"></div>
+            <div class="text">
+                <h2>Somos <span class="color-acento">MOTOWORKS - TRIPLE J</span></h2>
+                <p class="">En MOTOWORKS, somos apasionados por la excelencia en el cuidado y mantenimiento de las prestigiosas
+                    motocicletas Ducati y BMW. Nos enorgullecemos de ser un destino de confianza para los amantes de las
+                    dos ruedas, ofreciendo servicios especializados en restauración, reparación y ajustes meticulosos
+                    para optimizar el rendimiento y la experiencia de conducción de tu moto.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios">
+        <div class="container">
+            <h2 class="titulo"> Especializados en Motocicletas Ducati y BMW</h2>
+            <div class="opciones1">
+                <div class="carta">
+                    <h3>Repuestos y Piezas Originales</h3>
+                    <a href="inventario.html" target="_blank"><button>+ Info</button></a>
+                </div>
+                <div class="carta">
+                    <h3>Reparaciones y Ajustes Especializados</h3>
+                    <a href="inventario.html" target="_blank"><button>+ Info</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="base">
+        <div class="">
+            <div class="titulos">
+                <h3>¿Necesitas más información? Escríbenos</h3>
+                <div class="accion">
+                    <form method="post" action="enviarCorreo.php"> <!-- Reemplaza 'enviarCorreo.php' con el nombre de tu archivo PHP para manejar el formulario -->
+                        
+                        <div class="letter-input">
+                            <div>
+                                <input type="text" name="nombre" placeholder="Nombre">
+                            </div>
+                            <div>
+                                <input type="email" name="email" placeholder="Correo electrónico">
+                            </div>
+                            <div>
+                                <textarea name="mensaje" placeholder="Mensaje"></textarea>
+                            </div>
+                            <button type="submit" name="send" class="red_btn">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+
+    <footer class="footer1">
+        <div class="foot copy">
+            <h3 class="title_about">Acerca de</h3>
+            <p>Desarrollado por Ale♥</p>
+        </div>
+        <div class="foot map">
+            <h3 class="title_ubi">Ubicación</h3>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.7851706070282!2d-74.0830493856258!3d4.632378696634874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a0f9bb0ce7%3A0x5d71ff487837183c!2sUniempresarial!5e0!3m2!1ses!2sco!4v1678568405853!5m2!1ses!2sco"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

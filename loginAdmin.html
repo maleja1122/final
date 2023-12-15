@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>inicio de Sesión Administrador</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styleadmin.css">
+</head>
+
+<body>
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="caja">
+    
+          <p class="mt-4">¿Eres Usuario? <a href="login.html"><span class="subrayar">Ingresa aquí </span></a></p>
+
+          <form method="POST" action="bienvenidoAdmin.php">
+            <h2 class="text-center mb-4">Iniciar sesión</h2>
+
+
+            <div class="form-group">
+              <input type="text" class="form-control" name="email" id="email" placeholder="Correo electrónico" required>
+            </div>
+
+
+            <div class="form-group">
+              <input type="password" class="form-control" name="contraseña" id="contraseña" placeholder="Contraseña"
+                required>
+            </div>
+
+
+            <button type="submit" class="btn btn-primary btn-block" name="login">Iniciar sesión</button>
+          </form>
+        </div>
+
+
+       
+      </div>
+    </div>
+  </div>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

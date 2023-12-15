@@ -1,0 +1,63 @@
+/* style.css */
+
+/* Estilos para el cuerpo de la página */
+body {
+  background-image: url('./assets/css/img/moto.jpg'); /* Ruta a tu imagen de fondo */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la pantalla */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que se repita la imagen */
+  }
+  
+  /* Estilos para el formulario */
+  .formulario {
+    background-color: #ca1c1c; /* Color de fondo del formulario */
+    border-radius: 8px; /* Añadir bordes redondeados al formulario */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra alrededor del formulario */
+    padding: 20px; /* Espaciado interno del formulario */
+  }
+  
+  /* Personalizar colores de botones */
+  .btn-primary {
+    background-color: #007bff; /* Color de fondo del botón primario */
+    border-color: #007bff; /* Color del borde del botón primario */
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d; /* Color de fondo del botón secundario */
+    border-color: #6c757d; /* Color del borde del botón secundario */
+  }
+  .caja {
+    border: 1px solid #201e1e;
+    border-radius: 8px;
+    padding: 80px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    justify-content: left; /* Ajusta la alineación a la derecha */
+    align-items: center;
+    height: 75vh; 
+    margin-top: 10vh;
+    margin-left: 10px;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+    position:relative;
+  }
+  .mt-5{
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+  }
+  .mt-3{
+    color: #ffff;
+  }
+  .mt-4{
+ 
+    position: absolute;
+    top: 20px; /* Ajusta la distancia desde la parte superior */
+    right: 20px;
+    color: aliceblue;
+    
+  }
+  .subrayar{
+    text-decoration: underline;
+  }
+  

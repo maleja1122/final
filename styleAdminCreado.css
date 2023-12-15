@@ -1,0 +1,39 @@
+body {
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+  }
+  
+  .card-title {
+    color: #ff0000;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .card-link a {
+    color: #ff0000;
+    text-decoration: none;
+  }
+  
+  .card-link a:hover {
+    text-decoration: underline;
+  }
+  
